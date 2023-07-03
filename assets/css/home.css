@@ -1,0 +1,82 @@
+.home {
+  padding: 2rem 7.3%;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #fbed96, #abecd6);
+}
+
+.home__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  background-image: url(./../images/memoji-round.png);
+  background-color: var(--white-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home__content {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.home__title {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2em;
+}
+
+.home__accent {
+  background-image: linear-gradient(to right, #40c4ff, #189fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home__accent-line {
+  background-image: url(./../images/line.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.home__btn-group {
+  text-align: center;
+  margin-top: 42px;
+  font-size: 14px;
+}
+
+.home__btn {
+  width: 130px;
+  height: 37px;
+  margin-right: 16px;
+  border: none;
+  border-radius: 32px;
+  background-color: var(--black-bg);
+  color: white;
+}
+
+.home__link {
+  padding-right: 1.5rem;
+  text-decoration: none;
+  background-image: url(./../icons/Vector.png);
+  background-repeat: no-repeat;
+  background-size: 14%;
+  background-position: center right;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    border-radius: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home {
+    border-radius: 44px;
+  }
+
+  .home__title {
+    font-size: 60px;
+  }
+}
